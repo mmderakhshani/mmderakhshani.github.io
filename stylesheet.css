@@ -112,6 +112,10 @@ h2 {
   margin-right: 2%;
 }
 
+.intro__about-me {
+  text-align: justify;
+}
+
 .intro__image {
   width: 38%;
   display: flex;
