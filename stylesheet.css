@@ -71,7 +71,6 @@
 html, body {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 1em;
-  background: lightblue;
 }
 
 a {
@@ -119,6 +118,31 @@ h2 {
 .portfolio-image {
   width: 100%;
   border-radius: 100%;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.socials__item {
+margin-right: 0.5em;
+position: relative;
+}
+
+.socials__item::after {
+  content: "/";
+  margin-left: 0.5em;
+}
+
+.socials__item:last-child:after {
+  content: none;
+}
+
+.section {
+  margin-top: 5em;
 }
 
 .footer {
