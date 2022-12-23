@@ -153,6 +153,24 @@ position: relative;
   line-height: 1.5em;
 }
 
+.research {
+  display: flex;
+  margin-bottom: 1em;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.research__img {
+  width: 50%;
+  height: 100%;
+}
+
+.research__text {
+  padding: 1em;
+  width: 50%;
+  text-align: justify;
+}
+
 .footer {
   text-align: center;
 }
