@@ -130,9 +130,6 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-
-
-
 .fold {
 	padding: 10px;
 	width: 700px;
@@ -154,7 +151,6 @@ span.highlight {
 }
 .unfold-icon, .fold-icon {
   color: #999;
-  // fixed width to stop the icon from wiggling
   width: 10px;
   display: inline-block;
 }
@@ -164,7 +160,6 @@ span.highlight {
 .unfolder ~ label .fold-icon {
   display: none;
 }
-
 .unfolder:checked ~ .fold {
   display: block;
 }
