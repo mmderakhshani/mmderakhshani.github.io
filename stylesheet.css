@@ -173,6 +173,7 @@ position: relative;
 
 .footer {
   text-align: center;
+  margin-top: 5em;
 }
 
 @media only screen and (max-width: 686px) {
