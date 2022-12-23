@@ -140,3 +140,4 @@ Webpack/*
 
 # Parcel 
 .parcel-cache
+dist
