@@ -1,7 +1,6 @@
 {
   "name": "mmderakhshani.github.io",
   "version": "1.0.0",
-  "main": "index.js",
   "source": "./index.html",
   "scripts": {
     "start": "parcel",
