@@ -99,6 +99,10 @@ h2 {
   margin: 0 auto;
 }
 
+.section {
+  margin-top: 5em;
+}
+
 .intro {
   display: flex;
 }
@@ -141,8 +145,8 @@ position: relative;
   content: none;
 }
 
-.section {
-  margin-top: 5em;
+.news-list {
+  line-height: 1.5em;
 }
 
 .footer {
