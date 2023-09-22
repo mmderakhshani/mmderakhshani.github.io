@@ -26,11 +26,16 @@
           University of Amsterdam working with <a target="_blank"
             href="https://scholar.google.com/citations?user=0uKdbscAAAAJ&hl=en">Cees
             Snoek</a> and <a target="_blank" href="https://scholar.google.co.uk/citations?user=CdpLhlgAAAAJ&hl=en">Yuki
-            Asano</a>. My
-          Ph.D.
-          thesis is <strong>Efficient Adaptation of Large-scale Vision and Language Models</strong>.
+            Asano</a>. My Ph.D. thesis is <strong>Efficient Adaptation of Large-scale Vision and Language Models</strong>.
           Specifically, my current focus is on the implementation of prompting and chain of thoughts for
           multi-modal reasoning.
+          <br>
+          <br>
+          In summer 2023, I did a ML/CV internship at Microsoft Research in Cambridge working with <a
+            target="_blank" href="https://www.microsoft.com/en-us/research/people/mollyxia/">Molly Xia</a>, <a
+            target="_blank" href="https://scholar.google.co.in/citations?user=R7k23-0AAAAJ&hl=en">Harkirat Behl</a> and
+          <a target="_blank" href="https://www.microsoft.com/en-us/research/people/virueh/">Victor Ruehle</a>
+          doing research on <strong>conditional text-to-image generation</strong>.
           <br>
           <br>
           In summer 2022, I was also a ML/CV intern at Samsung AI Center (SAIC) in Cambridge working with <a
@@ -80,30 +85,13 @@
         <li>&#128220; MICCAI'23: <a target="_blank" href=https://arxiv.org/pdf/2303.05977.pdf>Open-Ended Medical Visual Question Answering Through Prefix Tuning of Language Models.</a></li>
         <li>&#128220; ICLR'23 - Workshop on ME-FoMo: <a target="_blank" href=https://openreview.net/forum?id=lJ5KlMWUzB>Variational prompt tuning improves generalization of vision-language foundation models.</a></li>
         <li>&#128293; Joined Samsung AI Center (SAIC) as CV/ML summer intern in Cambridge in UK.</li>
-        <li>&#128220; MICCAI'22: introducing <a target="_blank"
-            href="https://arxiv.org/abs/2204.05737">LifeLonger</a>, a
-          continual learning benchmark for
-          disease classification.</li>
-        <li>&#128220; New preprint: introducing <a target="_blank" href="https://arxiv.org/abs/2112.13410">generative kernel
-            continual learning</a>.</li>
-        <li>&#128220; ICML'21: introducing <a target="_blank" href="https://arxiv.org/abs/2107.05757">kernel
-            continual learning</a>.</li>
-        <li>Staring my PhD in January 2020</li>
-        <li>&#128220; CVPR'19: introducing <a target="_blank"
-            href="https://arxiv.org/abs/1906.05388">Assisted
-            Excitation of Activations</a> for object detection.</li>
-        <li>&#128220; CVPR'18 (Workshop): introducing <a target="_blank"
-            href="https://arxiv.org/abs/1805.11091">
-            BlockCNN</a> for artifact removal and image
-          compression.</li>
       </ul>
     </section>
 
     <section class="section">
       <h2>Research</h2>
       <p>
-        I'm interested in computer vision and multi-modal learning (vision & language models), specifically
-        the prompting and chain of thoughts for multi-modal reasoning.
+        I'm interested in multi-modal generative AI and specifically sustainable generative modelling.
       </p>
     </section>
 
@@ -116,12 +104,29 @@
           </a>
           <p><strong>Mohammad Mahdi Derakhshani</strong>, Enrique Sanchez, Adrian Bulat, Victor Guilherme Turrisi
             da Costa, Cees G. M. Snoek, Georgios Tzimiropoulos, Brais Martinez.</p>
-          <em>arXiv</em> <time>2022</time>
+          <em>ICCV</em> <time>2023</time>
           <a target="_blank" href="data/derakhshani2022variational.bib">bibtex</a>
           <p> We propose a probabilistic modeling of the underlying distribution of prompts, allowing prompts
-            within the support of an associated concept to be derived through stochastic sampling. This results
-            in a more complete and richer transfer of the information captured by the language model, providing
-            better generalization capabilities for downstream tasks.</p>
+               within the support of an associated concept to be derived through stochastic sampling. This results
+               in a more complete and richer transfer of the information captured by the language model, providing
+               better generalization capabilities for downstream tasks.
+          </p>
+        </div>
+      </div>
+
+      <div class="research">
+        <img class="research__img" src="images/micca_23.png" alt="method" width="160" height="100">
+        <div class="research__text">
+          <a target="_blank" href="https://arxiv.org/abs/2303.05977">
+            Open-Ended Medical Visual Question Answering Through Prefix Tuning of Language Models
+          </a>
+          <p>Tom van Sonsbeek*, <strong>Mohammad Mahdi Derakhshani*</strong>, Ivona Najdenkoska*, Cees G. M. Snoek, Marcel Worring.</p>
+          <em>MICCAI</em> <time>2023</time>
+          <a target="_blank" href="data/van2023open.bib">bibtex</a>
+          <p> we introduce a novel method particularly suited for small, domain-specific, medical datasets. To properly
+            communicate the medical images to the language model, we develop a network that maps the extracted
+             visual features to a set of learnable tokens. Then, alongside the question, these learnable tokens
+              directly prompt the language model.</p>
         </div>
       </div>
 
@@ -131,7 +136,7 @@
           <a target="_blank" href="https://arxiv.org/abs/2204.05737">
             LifeLonger: A Benchmark for Continual Disease Classification
           </a>
-          <p><strong>Mohammad Mahdi Derakhshani</strong>, Ivona Najdenkoska, Tom van Sonsbeek, Xiantong Zhen,
+          <p><strong>Mohammad Mahdi Derakhshani*</strong>, Ivona Najdenkoska*, Tom van Sonsbeek*, Xiantong Zhen,
             Dwarikanath Mahapatra, Marcel Worring, Cees G. M. Snoek.</p>
           <em>MICCAI</em> <time>2022</time>
           <a target="_blank" href="data/derakhshani2022lifelonger.bib">bibtex</a>
