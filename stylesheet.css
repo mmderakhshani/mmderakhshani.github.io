@@ -1,5 +1,5 @@
 :root {
-  --main-color: #98f7f9;
+  --main-color: #0568f4;
   --second-color: #f09228;
 }
 
@@ -26,6 +26,7 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -100,8 +101,8 @@ html,
 body {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 1em;
-  background: #212121;
-  color: #fefefe;
+  background: #FFFFFF;
+  color: #000000;
 }
 
 a {
@@ -161,9 +162,17 @@ h2 {
   justify-content: center;
 }
 
-.portfolio-image {
+/* .portfolio-image {
   width: 100%;
   border-radius: 2%;
+} */
+
+.portfolio-image {
+  width: 80%; /* Reduce this value to make the image smaller */
+  max-width: 300px; /* Add this to set a maximum width */
+  border-radius: 2%;
+  display: block; /* Add this to center the image */
+  margin: 0 auto; /* Add this to center the image */
 }
 
 .socials {
@@ -186,8 +195,77 @@ h2 {
   content: none;
 }
 
-.news-list {
+/* .news-list {
   line-height: 1.5em;
+} */
+
+.news-section {
+  background-color: #f8f9fa;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-section h2 {
+  color: #333;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid var(--main-color);
+}
+
+.news-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news-item {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.news-item:hover {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.news-date {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 0.5em;
+}
+
+.news-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.news-content {
+  color: #555;
+  line-height: 1.6;
+}
+
+.news-link {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.news-link:hover {
+  color: var(--second-color);
 }
 
 .research {
@@ -197,6 +275,14 @@ h2 {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border: 1px solid #b4abab;
   border-radius: 4px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.research:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .research__img {
