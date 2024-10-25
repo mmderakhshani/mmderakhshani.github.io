@@ -74,19 +74,16 @@
     <section class="section">
       <h2>News</h2>
       <ul class="news-list">
-        <li>&#128220; Preprint'23: <a target="_blank" href=https://arxiv.org/abs/2311.17937>Unlocking Spatial
+        <li>&#128220; Tulip (&#127799): <a target="_blank" href=https://arxiv.org/abs/2410.10034>Token-length Upgraded CLIP</a></li>
+        <li>&#128220; LynX (&#128049): <a target="_blank" href=https://arxiv.org/abs/2410.10491>Learning to Ground VLMs without Forgetting</a></li>
+        <li>&#128220; CompFuser: <a target="_blank" href=https://arxiv.org/abs/2311.17937>Unlocking Spatial
             Comprehension in Text-to-Image Diffusion Models</a></li>
-        <li>&#128220; Preprint'23: <a target="_blank" href=https://arxiv.org/abs/2310.00500>Self-Supervised Open-Ended
+        <li>&#128220; SeCAt: <a target="_blank" href=https://arxiv.org/abs/2310.00500>Self-Supervised Open-Ended
             Classification with Small Visual Language Models</a></li>
         <li>&#128220; ICCV'23: <a target="_blank" href=https://arxiv.org/pdf/2210.02390.pdf>Bayesian Prompt Learning for
             Image-Language Model Generalization</a></li>
         <li>&#128293; Joined Microsoft Research as ML summer intern in Cambridge in UK.</li>
-        <li>&#128220; [Oral] MICCAI'23: <a target="_blank" href=https://arxiv.org/pdf/2303.05977.pdf>Open-Ended Medical
-            Visual Question Answering Through Prefix Tuning of Language Models.</a></li>
-        <li>&#128220; ICLR'23 - Workshop on ME-FoMo: <a target="_blank"
-            href=https://openreview.net/forum?id=lJ5KlMWUzB>Variational prompt tuning improves generalization of
-            vision-language foundation models.</a></li>
-        <li>&#128293; Joined Samsung AI Center (SAIC) as CV/ML summer intern in Cambridge in UK.</li>
+
       </ul>
     </section>
 
@@ -97,6 +94,58 @@
     </section>
 
     <section>
+      <div class="research">
+        <img class="research__img" src="images/tulip.png" alt="method" width="160" height="100">
+        <div class="research__text">
+          <a target="_blank" href="https://arxiv.org/abs/2410.10034">
+            TULIP: Token-length Upgraded CLIP
+          </a>
+          <p>Ivona Najdenkoska*, <strong>Mohammad Mahdi Derakhshani</strong>*, Yuki M. Asano, Nanne van Noord, Marcel
+            Worring, Cees G. M. Snoek.</p>
+          <p class="equal-contribution"><em>*: equal contribution; random order.</em></p>
+          <em>Arxiv</em> <time>2024</time>
+          <a target="_blank" href="data/najdenkoska2024tulip.bib">bibtex</a>
+          <p> We propose a generalizable method, named TULIP, able to upgrade the token length to any length for CLIP-like models. 
+            We do so by improving the architecture with relative position encodings, followed by a training procedure that (i) distills 
+            the original CLIP text encoder into an encoder with relative position encodings and (ii) enhances the model for aligning longer captions with images.
+          </p>
+        </div>
+      </div>
+
+      <div class="research">
+        <img class="research__img" src="images/lynx.png" alt="method" width="160" height="100">
+        <div class="research__text">
+          <a target="_blank" href="https://arxiv.org/abs/2410.10491">
+            Learning to Ground VLMs without Forgetting
+          </a>
+          <p>Aritra Bhowmik*, <strong>Mohammad Mahdi Derakhshani</strong>*, Dennis Koelma, Martin R. Oswald, Yuki M. Asano, Cees G. M. Snoek
+          </p>
+          <p class="equal-contribution"><em>*: equal contribution; random order.</em></p>
+          <em>Arxiv</em> <time>2024</time>
+          <a target="_blank" href="data/bhowmik2024learning.bib">bibtex</a>
+          <p> Our contributions include (a) enabling a pre-trained captionbased vision-language model to learn new grounding skills by 
+            fine-tuning without forgetting old ones, (b) improving model performance by scaling the generated dataset, and (c) enabling visual grounding
+            tasks through step-by-step training on our synthetic dataset.
+          </p>
+        </div>
+      </div>
+
+      <div class="research">
+        <img class="research__img" src="images/anyshift.png" alt="method" width="160" height="100">
+        <div class="research__text">
+          <a target="_blank" href="https://arxiv.org/abs/2402.10099">
+            Any-Shift Prompting for Generalization over Distributions
+          </a>
+          <p>Zehao Xiao, Jiayi Shen, <strong>Mohammad Mahdi Derakhshani</strong>, Shengcai Liao, Cees GM Snoek</p>
+          <em>CVPR</em> <time>2024</time>
+          <a target="_blank" href="data/zehao2024prompt.bib">bibtex</a>
+          <p> we propose any-shift prompting: a general probabilistic inference framework that considers the relationship between 
+            training and test distributions during prompt learning. We explicitly connect training and test distributions in the 
+            latent space by constructing training and test prompts in a hierarchical architecture.
+          </p>
+        </div>
+      </div>
+
       <div class="research">
         <img class="research__img" src="images/compfuser.png" alt="method" width="160" height="100">
         <div class="research__text">
